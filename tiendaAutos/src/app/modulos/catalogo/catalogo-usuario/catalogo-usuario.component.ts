@@ -10,6 +10,7 @@ export class CatalogoUsuarioComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
