@@ -7,6 +7,7 @@ import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.co
 import { CatalogoUsuarioComponent } from './modulos/catalogo/catalogo-usuario/catalogo-usuario.component';
 import { CatalogoAdmiComponent } from './modulos/catalogo/catalogo-admi/catalogo-admi.component';
 import { TablaReusableComponent } from './modulos/tabla-reusable/tabla-reusable.component';
+import { FiltrosComponent } from './modulos/catalogo/filtros/filtros.component';
 
 import { EleccionAutosComponent } from './modulos/catalogo/catalogo-usuario/eleccion-autos/eleccion-autos.component';
 import { ModalModule } from './modulos/modal/modal.module';
@@ -19,8 +20,8 @@ import { ModalModule } from './modulos/modal/modal.module';
     CatalogoUsuarioComponent,
     CatalogoAdmiComponent,
     TablaReusableComponent,
-    ModalComponent,
-    EleccionAutosComponent
+    FiltrosComponent,
+    EleccionAutosComponent,
  
   ],
   imports: [
