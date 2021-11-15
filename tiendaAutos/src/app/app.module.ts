@@ -8,7 +8,7 @@ import { CatalogoUsuarioComponent } from './modulos/catalogo/catalogo-usuario/ca
 import { CatalogoAdmiComponent } from './modulos/catalogo/catalogo-admi/catalogo-admi.component';
 import { TablaReusableComponent } from './modulos/tabla-reusable/tabla-reusable.component';
 import { ModalComponent } from './modulos/modal/modal.component';
-import { ModulosFiltrosComponent } from './modulos-filtros/modulos-filtros.component';
+import { FiltrosComponent } from './modulos/catalogo/filtros/filtros.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { ModulosFiltrosComponent } from './modulos-filtros/modulos-filtros.compo
     CatalogoAdmiComponent,
     TablaReusableComponent,
     ModalComponent,
-    ModulosFiltrosComponent
+    FiltrosComponent
  
   ],
   imports: [
