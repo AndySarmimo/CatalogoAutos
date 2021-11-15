@@ -7,8 +7,9 @@ import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.co
 import { CatalogoUsuarioComponent } from './modulos/catalogo/catalogo-usuario/catalogo-usuario.component';
 import { CatalogoAdmiComponent } from './modulos/catalogo/catalogo-admi/catalogo-admi.component';
 import { TablaReusableComponent } from './modulos/tabla-reusable/tabla-reusable.component';
-import { ModalComponent } from './modulos/modal/modal.component';
+
 import { EleccionAutosComponent } from './modulos/catalogo/catalogo-usuario/eleccion-autos/eleccion-autos.component';
+import { ModalModule } from './modulos/modal/modal.module';
 
 
 @NgModule({
@@ -24,7 +25,10 @@ import { EleccionAutosComponent } from './modulos/catalogo/catalogo-usuario/elec
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ModalModule
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
