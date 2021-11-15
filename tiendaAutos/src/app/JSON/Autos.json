@@ -1,0 +1,20 @@
+[
+    {
+        "Nombre":"Vagoneta Suzuki",
+        "Modelo": "Celerio",
+        "Version":"Premium",
+        "Precio":1788,
+        "Descripcion":"Viajes seguros con Suzuki",
+        "Generacion":"CC102",
+        "ImgURL":"https://cdn.pixabay.com/photo/2016/12/31/01/43/auto-1941988_1280.png"
+    },
+    {
+        "Nombre":"Minivan Suzuki",
+        "Modelo": "SX4",
+        "Version":"Basic",
+        "Precio":9000,
+        "Descripcion":"Viajes seguros con Suzuki",
+        "Generacion":"CC108",
+        "ImgURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmiwV5qbvsZr0MhGRdBleNlIQXTIOIME8lBw&usqp=CAU"
+    }
+]

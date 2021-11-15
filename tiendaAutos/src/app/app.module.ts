@@ -8,8 +8,8 @@ import { CatalogoUsuarioComponent } from './modulos/catalogo/catalogo-usuario/ca
 import { CatalogoAdmiComponent } from './modulos/catalogo/catalogo-admi/catalogo-admi.component';
 import { TablaReusableComponent } from './modulos/tabla-reusable/tabla-reusable.component';
 
+import { EleccionAutosComponent } from './modulos/catalogo/catalogo-usuario/eleccion-autos/eleccion-autos.component';
 import { ModalModule } from './modulos/modal/modal.module';
-
 
 
 @NgModule({
@@ -18,16 +18,16 @@ import { ModalModule } from './modulos/modal/modal.module';
     BarraNavegacionComponent,
     CatalogoUsuarioComponent,
     CatalogoAdmiComponent,
-    TablaReusableComponent
-  
-    
-  
+    TablaReusableComponent,
+    ModalComponent,
+    EleccionAutosComponent
  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ModalModule
+    
     
   ],
   providers: [],
